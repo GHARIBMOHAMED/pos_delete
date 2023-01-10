@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+    <t t-name="ClearAll" owl="1">
+        <span class="control-button" >
+            <i class="fa fa-trash"/>
+            <span> </span>
+            <span><strong>Supprimer les commandes</strong></span>
+        </span>
+    </t>
+
+    <button class="input-button numpad-backspace" t-on-click="sendInput('Backspace')">
+        <img style="pointer-events: none;" src="/point_of_sale/static/src/img/backspace.png" width="24" height="21" alt="Backspace" />
+    </button>
+</templates>

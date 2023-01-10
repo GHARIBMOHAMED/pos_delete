@@ -1,0 +1,14 @@
+<odoo>
+  <data>
+    <template id="assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/pos_delete/static/src/js/delete_button.js" />
+            <script type="text/javascript" src="/pos_delete/static/src/js/barcode_scaneer_popup.js" />
+            <script type="" src="/pos_delete/static/src/js/delete_button.js"></script>
+            <link rel="stylesheet" href="/pos_delete/static/src/scss/delete_button.scss" ></link>
+       </xpath>
+    </template>
+
+
+  </data>
+</odoo>
