@@ -9,10 +9,10 @@
         Long description of module's purpose
     """,
     'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'website': "https://www.yourcompany.com",
     'category': 'eaze',
     'version': '0.1',
-    'depends': ["point_of_sale"],
+    'depends': [],
     'data': [
         # 'security/ir.model.access.csv',
         'views/views.xml',

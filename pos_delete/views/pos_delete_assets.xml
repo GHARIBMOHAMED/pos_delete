@@ -5,6 +5,7 @@
     <template id="assets" inherit_id="point_of_sale.assets">
         <xpath expr="." position="inside">
             <script type="text/javascript" src="/pos_delete/static/src/js/delete_button.js" />
+            <!--<script type="text/javascript" src="/pos_delete/static/src/js/delete_one.js" />-->
             <link rel="stylesheet" href="" ></link>
        </xpath>
     </template>
